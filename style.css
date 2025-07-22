@@ -1,0 +1,47 @@
+body {
+background-color: black;
+}
+
+p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h1 {
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color: white;
+    
+}
+
+footer{
+    color: white;
+}
+
+.list {
+    color: white;
+    text-align: left;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#starters_image_div img {
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    
+}
