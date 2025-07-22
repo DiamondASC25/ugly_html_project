@@ -1,36 +1,49 @@
 body {
-background-color: black;
+    background-color: black;
 }
 
 p {
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    
+    font-weight: bold;
 }
 
 h1 {
     color: yellow;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    background-color: #2f549b;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h2 {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px; 
+    margin-left: 20px;
+}
+
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 h3{
     color: white;
-    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 footer{
     color: white;
+    margin-left: 25px;
 }
 
 .list {
     color: white;
     text-align: left;
+    margin-bottom: 50px;
 }
 
 
@@ -43,5 +56,45 @@ img {
     border-style: solid;
     border-color: blue;
     border-width: 3px;
+    padding: 5px;
+}
+
+#bulbasaur_container {
+    background-color: #8cc48e;
+    background-size: 300px 100px;
+    padding: 10px;
+    border-style: solid;
+    border-color: yellow;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
     
 }
+
+#charmander_container {
+    background-color: #f3b284;
+    background-size: 300px 100px;
+    padding: 10px;
+    border-style: solid;
+    border-color: yellow;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#squirtle_container {
+    background-color: #8ec3ce;
+    background-size: 300px 100px;
+    padding: 10px;
+    border-style: solid;
+    border-color: yellow;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    margin-bottom: 120px;
+    margin-top: 10px;
+}
+
